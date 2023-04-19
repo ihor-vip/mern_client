@@ -10,7 +10,7 @@ import styles from '../styles/Username.module.css';
 export default function Username() {
     const formik = useFormik({
         initialValues : {
-            username : ''
+            username: ''
         },
         validate : usernameValidate,
         validateOnBlur: false,
